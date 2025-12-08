@@ -9,9 +9,9 @@ df = pd.DataFrame(data)
 df_dropna = df.dropna()
 
 conn = snowflake.connector.connect(
-    user="***REMOVED***",
-    password="***REMOVED***",
-    account="***REMOVED***",
+    user="YOUR_USERNAME",
+    password="YOUR_PASS",
+    account="YOUR_ACCOUNT",
     warehouse="COMPUTE_WH",
     database="LEARNING_DB",
     schema="RAW",
