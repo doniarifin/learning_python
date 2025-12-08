@@ -1,7 +1,7 @@
 import pandas as pd
 import mysql.connector
 
-data = pd.read_csv("customers_100.csv")
+data = pd.read_csv("../csv/customers_100.csv")
 
 df = pd.DataFrame(data)
 
